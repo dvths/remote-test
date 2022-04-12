@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/DVths/try/issues"
   },
-  "homepage": "https://github.com/DVths/try#readme"
+  "homepage": "https://github.com/DVths/try#readme",
+  "devDependencies": {
+    "eslint": "^8.13.0"
+  }
 }
