@@ -74,11 +74,23 @@ defini-las. Elas serão a base para a medida para o acompanhamento do desempenho
 Ela ficará armazenada no objeto e nos _templates_ de resumos e anotações.
 
 **edit [-e]**
+- [ ] - Adicionar descrição
+
 **show [-s]**
+- [ ] - Adicionar descrição
+
 **remove [-rm]**
+- [ ] - Adicionar descrição
+
 **move [-mv]**
+- [ ] - Adicionar descrição
 
 ## Subcomandos
+
+```
+$ try <command> <subcommand>
+
+```
 
 **--module**: Adiciona um novo módulo ao curso. Se houver mais de um curso
 um _prompt_ com uma lista dos cursos disponíveis será exibida para que o usuário
@@ -126,8 +138,3 @@ entendimento (esse valor será buscado para um consolidado no futuro). Para os
 Resumos: Título, Tópicos (seleção dos tópicos do bloco), _Tag_ (uma marcação que
 poderá ser usada para uma busca futura).
 
-```
-
-
-
-```
