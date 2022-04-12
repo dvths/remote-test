@@ -9,6 +9,18 @@
   "scripts": {
     "test": "jest"
   },
+  "lint-staged": {
+    "*.js": [
+      "eslint_d --fix",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DVths/try.git"
@@ -21,7 +33,9 @@
   "homepage": "https://github.com/DVths/try#readme",
   "devDependencies": {
     "eslint_d": "^12.0.0",
-    "jest": "^27.5.1"
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "lint-staged": "^12.3.7"
   },
   "dependencies": {
     "chalk": "^5.0.1",
