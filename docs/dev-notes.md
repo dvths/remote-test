@@ -36,6 +36,22 @@ desempenho em cada hard skill necessária para uma evolução rápida e sustent�
 
 # Testes Unitários
 
+**Usando Jest para testar aplicações de linha de comando.**
+
+Uma das dúvidas que surgiu ao pensar em iniciar pelos testes da aplicação, foi
+definir como esses testes seriam de integração ou unitários. A diferença entre
+os dois é que o primeiro é mais amplo e o segundo mais refinado. No entanto,
+testes de integração também podem ser combinados com testes unitários. Quais
+seria a melhor abordagem para iniciar?
+
+Paralelamente à dúvida anterior é: Como simular o comportamento do usuário
+usando linha de comando?
+
+Pesquisando sobre o assunto, encontrei um artigo no medium,
+[How to Test a Node.js Command-Line Tool](https://javascript.plainenglish.io/how-to-test-a-node-js-command-line-tool-2735ea7dc041)
+Que aborda exatamente minha dúvida e apresenta alternativas para o
+desenvolvimento de testes para aplicações de linha de comando.
+
 # Fluxo
 
 ### Top Level Commands
@@ -165,3 +181,10 @@ poderá ser usada para uma busca futura).
 ### Flags
 
 ### Referências
+
+**Testes**
+
+Uso da função `spawn()` para executar um novo processo e armazenar a saída em um
+Buffer:
+
+[`spawn()`](https://nodejs.org/en/knowledge/child-processes/how-to-spawn-a-child-process/)
