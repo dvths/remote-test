@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Uma ferramenta de gerenciamento do desempenho",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
