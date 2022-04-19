@@ -1,5 +1,9 @@
-module.exports = {
+export default {
   collectCoverage: true,
-  coverageDirectory: 'coverage',
-  coverageProvider: 'v8',
+  moduleFileExtensions: ['js', 'mjs'],
+  transform: {
+    '^.+\\.js$': 'babel-jest',
+    '^.+\\.mjs$': 'babel-jest',
+  },
+  testRegex: '((\\.|/*.)(spec))\\.js?$',
 };
