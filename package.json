@@ -4,6 +4,7 @@
   "description": "Uma ferramenta de gerenciamento do desempenho",
   "main": "index.js",
   "type": "module",
+  "bin": "/bin/index.js",
   "directories": {
     "doc": "docs"
   },
