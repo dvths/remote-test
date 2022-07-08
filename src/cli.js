@@ -1,5 +1,5 @@
 function main() {
-  console.log('Hello, from main function');
+  console.log('Testando remote');
 }
 
 export default main;
